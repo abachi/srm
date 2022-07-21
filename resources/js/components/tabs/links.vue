@@ -1,6 +1,5 @@
 <template>
   <Tab
-      id="links"
       :data="resources[LINK_TYPE]"
       :keysValues="keysValues"
       :resource_type="resource_type"

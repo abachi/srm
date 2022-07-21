@@ -1,6 +1,6 @@
 <template>
   <NoDataAvailable :show="data && data.length === 0"/>
-  <table :id='id' class="min-w-full border divide-y divide-gray-200" v-if="data && data.length > 0">
+  <table class="min-w-full border divide-y divide-gray-200" v-if="data && data.length > 0">
     <thead>
     <tr>
       <th class="px-6 py-3 bg-gray-50" v-for="(item) in keysValues">
