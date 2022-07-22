@@ -111,9 +111,13 @@ DB_DATABASE=srm_testing
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-4. run `php artisan key:generate && php artisan migrate --seed && npm run dev`
+4. run `php artisan key:generate && php artisan migrate --seed && npm run prod`
 5. run `php artisan serve` to launch the app
 6. open [http://localhost:8000](http://localhost:8000) in your browser to see the result
+
+### Development
+1. run `php artisan serve`
+2. run `npm run watch`
 
 ### Run tests
 `php artisan test`
