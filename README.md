@@ -6,6 +6,25 @@ Here is a [demo](https://obscure-mountain-32205.herokuapp.com/) hosted in Heroku
 PS: You might face some slowness when you visit the app for the first time
 that's because Heroku puts the app to sleep after 30 minutes of inactivity.
 
+### About:
+
+#### / - Visitor page:
+
+A visitor can browse tabs and see different resources
+
+![image](https://user-images.githubusercontent.com/12300606/180384872-15219a24-fabb-4c7e-83f9-904e90a8dca0.png)
+
+#### /admin - Admin page:
+
+Admin can switch tabs to see different resources and manage them.
+
+![image](https://user-images.githubusercontent.com/12300606/180384351-4d87caec-dbf8-4b4c-b562-b978f69a0d77.png)
+
+#### /admin/resources/create - Create resource page:
+
+Admin can select a type of a resource and can create one:
+
+![image](https://user-images.githubusercontent.com/12300606/180385223-9e9ad2e2-90e4-4de8-bcca-e91f6b24c8cd.png)
 
 ### Design:
 I've used the factory method design pattern to create resources based on the client request. the following image is showing what the resource interface looks like and what are the resources that we are currently supporting.
